@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center px-6 py-4 bg-white shadow sticky top-0 z-10">
-      <Link to="/" className="text-xl font-bold text-blue-600">🛍️ MyShop</Link>
+      <Link to="/" className="text-xl font-bold text-blue-600">🛍️ Quick Shop</Link>
 
       <div className="flex items-center gap-4">
         <Link
