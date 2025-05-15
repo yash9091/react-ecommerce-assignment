@@ -1,12 +1,38 @@
-# React + Vite
+# 🛍️ React E-commerce App Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully functional e-commerce frontend built using **React**, **Tailwind CSS**, and **Vite** as part of a frontend developer assignment.
 
-Currently, two official plugins are available:
+It allows users to:
+- Browse products
+- View product details
+- Add/remove items to cart
+- Adjust quantities in cart
+- View total price
+- Navigate to the cart with floating & navbar buttons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (with Hooks & Router)
+- **Tailwind CSS** (fully responsive UI)
+- **Vite** (blazing fast dev build tool)
+- **React Icons** (for clean visuals)
+- **React Hot Toast** (for feedback messages)
+
+---
+
+
+## 🧩 Features
+
+- ✅ Product listing with real API (https://fakestoreapi.com/)
+- ✅ Responsive grid layout with Tailwind
+- ✅ Product detail page with rating & price
+- ✅ Add to Cart with quantity tracking
+- ✅ Persistent Cart via localStorage
+- ✅ Floating "Go to Cart" button (like Blinkit)
+- ✅ Toast notifications for cart actions
+- ✅ Modern fonts (Montserrat via Google Fonts)
+- ✅ Clean, reusable components (`ProductCard`, `Navbar`, `Cart`, etc.)
+
+---
